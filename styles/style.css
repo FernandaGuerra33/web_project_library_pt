@@ -59,8 +59,9 @@
 
 .header__content {
   display: flex;
-  margin: 0 20px 5px 20px;
+  margin: 0 10px 5px 20px;
   width: 100%;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -116,7 +117,10 @@
   display: flex;
   justify-content: center;
   padding: 80px 20px 0px 20px;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 30px;
+  margin: 40px 10px 40px 10px;
 }
 
 .staff__subtitle {
@@ -124,6 +128,10 @@
   display: flex;
   justify-content: center;
   margin-bottom: 68px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-right: 20px 50px 20px 50px;
 }
 
 .content {
@@ -134,18 +142,18 @@
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-size: cover;
-  padding-bottom: 20px;
-  padding-top: 0;
 }
 
 .staff__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-left: 350px;
   column-gap: 40px;
   max-width: 760px;
   list-style-type: none;
+  column-gap: 40px;
+  margin: 0 50px 0 50px;
+  padding: 0px 0px 0 250px;
 }
 
 .card {
@@ -153,35 +161,35 @@
   width: 360px;
   list-style-type: none;
   background-color: #fff;
-  column-gap: 40px;
   margin-bottom: 40px;
   border-color: black;
   position: relative;
   box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px 10px 5px 0;
 }
 
 .card__content {
   margin: auto 0;
   box-sizing: border-box;
-  display: block;
   flex-direction: column;
   height: 100%;
 }
 
 .card__title {
   font-size: 20px;
-  padding: 8px 40px 10px 30px;
   justify-content: center;
-  margin-left: 0;
-  margin-bottom: 10px;
+  line-height: 22px;
+  padding: 0 10px 0 30px;
 }
 
 .card__text {
   font-size: 16px;
   font-style: normal;
   padding: 8px 40px 10px 30px;
-  margin: 0 10px 0 0px;
+  margin: 5px 10px 5px 5px;
   justify-content: center;
+  line-height: 22px;
 }
 
 .card__footer {
@@ -192,4 +200,9 @@
   justify-content: flex-end;
   position: absolute;
   bottom: -10px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px;
 }
