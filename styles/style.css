@@ -129,6 +129,7 @@
   margin-bottom: 68px;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 0 auto;
 }
 
 .content {
@@ -139,9 +140,8 @@
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-size: cover;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 15px;
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
 }
 
 .staff__cards {
@@ -164,6 +164,7 @@
   position: relative;
   box-sizing: border-box;
   border-radius: 4px;
+  padding: 0px 10px 0px 5px;
 }
 
 .card__content {
@@ -178,15 +179,15 @@
   font-size: 20px;
   justify-content: center;
   line-height: 30px;
-  padding: 0 10px 0 30px;
-  margin: 20px 0px 10px 10px;
+  padding: 8px 40px 0px 10px;
+  margin: 20px 0px 10px 0px;
 }
 
 .card__text {
   font-size: 16px;
   font-style: normal;
-  padding: 8px 40px 10px 30px;
-  margin: 20px 0px 10px 10px;
+  padding: 8px 40px 0px 10px;
+  margin: 20px 0px 10px 0px;
   justify-content: center;
   line-height: 20px;
 }
@@ -194,7 +195,7 @@
 .card__footer {
   color: #838383;
   margin-top: auto;
-  padding-left: 30px;
+  padding-left: 10px;
   padding-right: 25px;
   justify-content: flex-end;
   position: absolute;
