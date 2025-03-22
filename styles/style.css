@@ -131,7 +131,8 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 28px;
-  margin-right: 20px 50px 20px 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .content {
@@ -151,7 +152,6 @@
   column-gap: 40px;
   max-width: 760px;
   list-style-type: none;
-  column-gap: 40px;
   margin: 0 50px 0 50px;
   padding: 0px 0px 0 250px;
 }
