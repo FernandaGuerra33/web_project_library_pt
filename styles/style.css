@@ -119,6 +119,7 @@
   font-weight: 400;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 0 24px;
 }
 
 .staff__subtitle {
@@ -150,10 +151,10 @@
   justify-content: center;
   max-width: 760px;
   list-style-type: none;
-  padding: 0;
   gap: 40px;
+  margin: auto;
   margin-top: 68px;
-  padding: 0 270px 0 270px;
+  margin-bottom: 0;
 }
 
 .card {
@@ -165,6 +166,7 @@
   position: relative;
   border-radius: 6px;
   box-sizing: border-box;
+  padding: 32px 40px 20px 32px;
 }
 
 .card__content {
@@ -180,13 +182,13 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  margin: 20px;
+  margin: 0;
 }
 
 .card__text {
   font-size: 16px;
   font-style: normal;
-  margin: 20px 20px 0px;
+  margin: 20px 0px 0px;
   justify-content: center;
   line-height: 24px;
 }
@@ -196,11 +198,9 @@
   margin-top: auto;
   justify-content: flex-end;
   position: absolute;
-  bottom: -10px;
+  bottom: 10px;
   line-height: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  margin-left: 0px;
   font-size: 14px;
-  padding-left: 20px;
+  padding-left: 0 40 0 40px;
+  margin: 0;
 }
