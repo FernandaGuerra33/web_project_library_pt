@@ -155,6 +155,7 @@
   margin: auto;
   margin-top: 68px;
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 .card {
@@ -202,5 +203,4 @@
   line-height: 20px;
   font-size: 14px;
   padding-left: 0;
-  margin: 0;
 }
