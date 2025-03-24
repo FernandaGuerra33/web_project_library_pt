@@ -5,8 +5,6 @@
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  display: inline-block;
-  justify-content: center;
 }
 
 .header {
@@ -19,7 +17,7 @@
   box-sizing: border-box;
   justify-content: space-between;
   height: 100vh;
-  margin: 0px 10px 5px 0px;
+  margin: 0px 10px 0px 0px;
 }
 
 .nav {
@@ -35,8 +33,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 0 5px 20px;
+  margin: 0 10px 5px 10px;
   padding-left: 10px;
+  padding-right: 0;
 }
 
 .nav__links {
@@ -49,6 +48,7 @@
   top: -90px;
   justify-content: flex-end;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .nav__link {
@@ -59,7 +59,7 @@
 
 .header__content {
   display: flex;
-  margin: 0 10px 5px 20px;
+  margin: 0 10px 5px 10px;
   width: 100%;
   justify-content: space-between;
 }
@@ -206,4 +206,138 @@
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 0;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person_name_feynman {
+  position: absolute;
+  left: 319px;
+  top: -30px;
+}
+
+.person_name_burbidge {
+  position: absolute;
+  top: 96px;
+  right: 125px;
+}
+
+.person_name_cannon {
+  position: absolute;
+  right: 216px;
+  bottom: 18px;
+}
+
+.person_name_mitchell {
+  position: absolute;
+  left: 142px;
+  bottom: 82px;
+}
+
+.person_name_tarter {
+  position: absolute;
+  left: 159px;
+  top: 79px;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
 }
